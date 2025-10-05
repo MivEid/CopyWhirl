@@ -1,6 +1,13 @@
 body {
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
+  background-color: var(--color-white);
+  color: var(--color-umbra);
+  font-family: var(--font-family);
+  font-weight: 400;
+  letter-spacing: 0.01em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  border: transparent;
 }

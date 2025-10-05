@@ -1,0 +1,18 @@
+.companies__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.companies__title {
+  font-size: 24px;
+  line-height: 156%;
+  padding-bottom: 24px;
+}
+
+.companies__logos {
+  display: flex;
+  flex-direction: row;
+  gap: 63px;
+}

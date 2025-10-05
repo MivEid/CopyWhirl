@@ -1,0 +1,53 @@
+.banner__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 63px;
+  padding-bottom: 92px;
+}
+
+.banner__image {
+  margin-left: auto;
+  padding-left: 152px;
+}
+
+.banner__title {
+  font-family: var(--second-family);
+  letter-spacing: 0em;
+  line-height: 110%;
+  font-size: 58px;
+  padding-bottom: 24px;
+  padding-right: 40px;
+}
+
+.banner__desc {
+  font-size: 20px;
+  padding-bottom: 32px;
+  padding-right: 172px;
+}
+
+.banner__actions {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+}
+
+.banner__action--book {
+  font-size: 17px;
+  line-height: 160%;
+  padding: 8px 35px;
+}
+
+.banner__action--learn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 17px;
+  line-height: 160%;
+  gap: 8px;
+  color: var(--color-purr);
+}
+
+.banner__action--learn:hover {
+  color: var(--color-black);
+}

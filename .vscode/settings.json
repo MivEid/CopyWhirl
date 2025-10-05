@@ -26,5 +26,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  "editor.formatOnPaste": true
+  "editor.formatOnPaste": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.wordWrap": "off",
+  "terminal.integrated.letterSpacing": 0,
+  "editor.letterSpacing": 0,
+  "editor.lineHeight": 2
 }
