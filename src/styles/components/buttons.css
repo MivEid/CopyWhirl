@@ -1,0 +1,14 @@
+.btn__book {
+  padding: 6px 21px;
+  background-color: var(--color-purr);
+  color: var(--color-white);
+  border: 1px solid transparent;
+  font-size: 15px;
+  line-height: 160%;
+}
+
+.btn__book:hover {
+  border: 1px solid var(--color-purr);
+  background-color: var(--color-white);
+  color: var(--color-purr);
+}
