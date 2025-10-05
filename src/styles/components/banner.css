@@ -13,7 +13,7 @@
 
 .banner__title {
   font-family: var(--second-family);
-  letter-spacing: 0em;
+  letter-spacing: 0;
   line-height: 110%;
   font-size: 58px;
   padding-bottom: 24px;
