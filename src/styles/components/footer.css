@@ -1,28 +1,39 @@
 .footer {
-  display: flex;
-  justify-content: center;
 }
-.footer__contanier {
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+}
+.footer__main {
   display: flex;
   flex-direction: row;
+  margin-bottom: 64px;
 }
+
 .footer__links {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 216px);
+  margin-left: auto;
   gap: 40px;
 }
 
 .footer__brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo svg {
+  width: 135px;
+  height: 47px;
   margin-bottom: 25px;
-  margin-right: 288px;
 }
-.footer__logo {
-  margin-bottom: 25px;
+
+.footer__description {
 }
-.footer__descruption {
-}
+
 .footer__column-title {
-  margin-bottom: 28px;
+  margin-bottom: 16px;
   font-size: 15px;
   color: var (--color-umbra);
 }
@@ -31,7 +42,7 @@
   color: var(--color-feather);
 }
 .footer__list li {
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 
 .footer__link {
