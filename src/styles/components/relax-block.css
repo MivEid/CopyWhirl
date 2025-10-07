@@ -2,6 +2,7 @@
   padding-top: 79px;
   padding-bottom: 105px;
 }
+
 .relax-block__title {
   font-family: var(--second-family);
   font-size: 39px;
@@ -12,16 +13,16 @@
 .relax-block__title p {
   font-size: 42px;
   line-height: 120%;
-  letter-spacing: 0em;
+  letter-spacing: 0;
 }
 
 .relax-block__content {
   display: flex;
 }
+
 .relax-block__features {
   display: flex;
   flex-direction: column;
-  align-items:;
   padding-right: 168px;
   padding-top: 60px;
   gap: 1px;
@@ -32,18 +33,18 @@
   flex-direction: row;
   border-top: 1px solid var(--color-illusionblue);
   border-bottom: 1px solid var(--color-illusionblue);
-  padding-top: 18px;
-  padding-bottom: 20px;
-  padding-right: 16px;
-  padding-left: 12px;
+  padding: 18px 16px 20px 12px;
 }
+
 .relax-feature--closed {
   padding-bottom: 18px;
   color: var(--color-featherfalls);
 }
+
 .relax-feature__icon {
   padding-right: 16px;
 }
+
 .relax-feature__title {
   font-family: var(--second-family);
   font-size: 21px;
