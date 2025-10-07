@@ -7,6 +7,12 @@
   max-width: 100%;
 }
 
+.bcolor-container {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--color-lightgray);
+}
+
 @media (--sm-viewport) {
   .container {
     max-width: 576px;
