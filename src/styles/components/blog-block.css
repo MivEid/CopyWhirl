@@ -11,7 +11,7 @@
   font-family: var(--second-family);
   font-size: 42px;
   line-height: 120%;
-  letter-spacing: 0em;
+  letter-spacing: 0;
 }
 
 .blog-block__link {
@@ -57,7 +57,7 @@
 }
 
 .blog-card__text {
-  padding: 25px 25px;
+  padding: 25px;
 }
 
 .blog-card__theme {
