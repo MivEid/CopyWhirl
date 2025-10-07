@@ -96,6 +96,7 @@
 
 .footer__separator {
   margin-bottom: 20px;
+  border-top: 1 px solid var(--color-violet);
 }
 
 .footer__copyright {
