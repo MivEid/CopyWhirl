@@ -6,6 +6,7 @@
   display: flex;
 }
 .about-block__maintitle {
+  color: var(--color-umbra);
   font-size: 42px;
   margin-right: auto;
   font-family: var(--second-family);
@@ -27,12 +28,13 @@
   font-size: 25px;
 }
 .about-block__columns {
+  color: var(--color-umbra);
   display: flex;
   margin-left: auto;
   gap: 48px;
 }
 .about-block__column {
-  flex: 1;
+  flex: 0 1 auto;
   line-height: 160%;
   font-size: 15px;
 }
