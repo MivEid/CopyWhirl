@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,20 +7,14 @@
     <title>Vite App</title>
 
     <style media="(prefers-color-scheme: light)">
-      @import url("./src/styles/colors/light.css");
+      @import url('./src/styles/colors/light.css');
     </style>
     <style media="(prefers-color-scheme: dark)">
-      @import url("./src/styles/colors/dark.css");
+      @import url('./src/styles/colors/dark.css');
     </style>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap" rel="stylesheet" />
   </head>
   <body>
     <div class="page">
@@ -29,13 +23,7 @@
           <div class="header">
             <div class="navbar__container">
               <div class="navbar__logo">
-                <svg
-                  width="106"
-                  height="37"
-                  viewBox="0 0 106 37"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                <svg width="106" height="37" viewBox="0 0 106 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M43.1528 29.5814L37.5584 9.62834H41.4203L44.9918 24.2911H45.1757L48.9893 9.62834H52.5027L56.3259 24.3009H56.5001L60.0717 9.62834H63.9336L58.3391 29.5814H54.7966L50.8283 15.5811H50.6734L46.6953 29.5814H43.1528ZM69.4999 20.813V29.5814H65.9961V9.62834H69.4225V17.1595H69.5967C69.9451 16.3151 70.4839 15.6494 71.2131 15.1623C71.9487 14.6686 72.8843 14.4217 74.02 14.4217C75.0524 14.4217 75.9526 14.6393 76.7204 15.0746C77.4883 15.5097 78.082 16.1462 78.5014 16.9841C78.9273 17.822 79.1402 18.845 79.1402 20.0531V29.5814H75.6364V20.5987C75.6364 19.5919 75.3783 18.8092 74.8621 18.2506C74.3523 17.6856 73.6361 17.4031 72.7133 17.4031C72.0938 17.4031 71.539 17.5395 71.0486 17.8122C70.5646 18.0785 70.1839 18.465 69.9064 18.9716C69.6354 19.4783 69.4999 20.092 69.4999 20.813ZM82.4392 29.5814V14.6166H85.9429V29.5814H82.4392ZM84.2008 12.4927C83.6458 12.4927 83.1684 12.3076 82.7683 11.9374C82.3682 11.5607 82.1682 11.1093 82.1682 10.5831C82.1682 10.0506 82.3682 9.59917 82.7683 9.22892C83.1684 8.8522 83.6458 8.66385 84.2008 8.66385C84.7621 8.66385 85.2396 8.8522 85.6335 9.22892C86.0335 9.59917 86.2336 10.0506 86.2336 10.5831C86.2336 11.1093 86.0335 11.5607 85.6335 11.9374C85.2396 12.3076 84.7621 12.4927 84.2008 12.4927ZM89.2734 29.5814V14.6166H92.6705V17.1108H92.8252C93.0971 16.2469 93.5612 15.5811 94.2195 15.1135C94.8837 14.6393 95.6419 14.4023 96.4942 14.4023C96.6874 14.4023 96.9037 14.412 97.1422 14.4315C97.3875 14.4445 97.591 14.4673 97.7525 14.4997V17.7441C97.6038 17.6921 97.3687 17.6466 97.0456 17.6076C96.7293 17.5622 96.4232 17.5395 96.1258 17.5395C95.4872 17.5395 94.9127 17.6791 94.4033 17.9583C93.8998 18.2312 93.5031 18.6112 93.2125 19.0983C92.9227 19.5854 92.7774 20.1473 92.7774 20.7838V29.5814H89.2734ZM103.312 9.62834V29.5814H99.8075V9.62834H103.312Z"
                     fill="#2D2D2D"
@@ -63,56 +51,30 @@
                 </ul>
               </nav>
               <div class="navbar__actions">
-                <button class="navbar__action navbar__action--sign">
-                  Sign in
-                </button>
-                <button class="navbar__action navbar__action--book btn__book">
-                  Book a demo
-                </button>
+                <button class="navbar__action navbar__action--sign">Sign in</button>
+                <button class="navbar__action navbar__action--book btn__book">Book a demo</button>
               </div>
             </div>
             <div class="banner__container">
               <div class="banner__text">
                 <h1 class="banner__title">Your everyday tasks, automated.</h1>
                 <p class="banner__desc">
-                  Whirl lets you design and streamline your everyday tasks and
-                  workflows in just a few clicks.
+                  Whirl lets you design and streamline your everyday tasks and workflows in just a few clicks.
                 </p>
                 <div class="banner__actions">
-                  <button class="banner__action banner__action--book btn__book">
-                    Book a demo
-                  </button>
+                  <button class="banner__action banner__action--book btn__book">Book a demo</button>
                   <button class="banner__action banner__action--learn">
                     <p>Learn more</p>
-                    <svg
-                      width="11"
-                      height="20"
-                      viewBox="0 0 11 20"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M1.34314 1.1001L9.68628 9.86039L1.34314 18.6207"
-                        stroke="#006B99"
-                        stroke-width="1.6"
-                      />
+                    <svg width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1.34314 1.1001L9.68628 9.86039L1.34314 18.6207" stroke="#006B99" stroke-width="1.6" />
                     </svg>
                   </button>
                 </div>
               </div>
               <div class="banner__image">
-                <svg
-                  width="452"
-                  height="422"
-                  viewBox="0 0 452 422"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                <svg width="452" height="422" viewBox="0 0 452 422" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_2_670)">
-                    <path
-                      d="M452 50.0309H17.3846V422H452V50.0309Z"
-                      fill="#DEF2F7"
-                    />
+                    <path d="M452 50.0309H17.3846V422H452V50.0309Z" fill="#DEF2F7" />
                     <path
                       d="M380.386 25.8283C379.895 26.9897 382.176 53.251 378.715 95.7335C376.513 122.94 379.639 148.02 379.757 181.722C379.757 206.291 377.456 240.092 377.79 264.267C378.145 302.024 379.422 333.699 380.072 353.739C380.544 368.307 368.508 376.91 351.576 376.634C313.777 376.024 244.492 374.665 182.189 373.229C160.143 372.757 144.174 368.976 125.59 368.563C109.994 368.209 91.0355 371.221 80.0617 370.985L53.0402 370.375C53.0402 370.375 62.8733 71.9724 62.8733 70.9881C63.8561 61.6836 64.0534 52.3126 63.4633 42.9748L64.132 27.5606C64.132 27.5606 62.9323 24.6471 70.7989 24.1353C78.6654 23.6234 160.202 23.6234 160.202 23.6234L380.386 25.8283Z"
                       fill="white"
@@ -217,10 +179,7 @@
                       d="M323.885 342.951C342.273 346.081 340.169 340.234 338.242 361.023C336.452 380.316 336.688 384.331 333.974 383.839C331.26 383.347 334.76 367.5 335.449 356.928C335.724 352.735 335.449 354.015 335.979 347.775C324.082 345.806 291.278 339.723 287.01 339.093C285.674 348.405 282.232 374.075 281.11 378.111C280.994 378.405 280.781 378.648 280.506 378.804C280.23 378.958 279.911 379.014 279.6 378.96C279.289 378.907 279.006 378.749 278.797 378.512C278.59 378.275 278.469 377.974 278.456 377.657C278.613 375.316 280.423 362.342 280.717 360.748C283.628 340.747 282.822 335.923 287.109 336.573C328.428 342.932 310.217 340.569 323.885 342.951Z"
                       fill="#000001"
                     />
-                    <path
-                      d="M323.531 100.635C322.43 100.635 323.963 100.753 323.531 100.635V100.635Z"
-                      fill="#000001"
-                    />
+                    <path d="M323.531 100.635C322.43 100.635 323.963 100.753 323.531 100.635V100.635Z" fill="#000001" />
                     <path
                       d="M284.041 207.314C283.884 209.657 288.643 213.791 287.581 221.547C285.83 234.599 288.014 226.232 278.594 247.139C275.152 254.797 276.431 255.289 271.966 263.341C267.856 270.762 267.718 271.609 267.836 278.007C268.21 299.938 264.434 280.133 267.836 316.316C270.078 339.94 271.061 342.105 272.143 351.121C272.595 354.921 273.087 363.464 273.166 363.602C273.991 365.019 273.5 366.633 273.834 368.149C276.509 380.119 270.412 378.091 270.157 375.749C269.9 373.406 270.314 376.949 268.898 358.031C266.361 324.565 261.149 304.977 263.804 289.878C265.771 278.243 263.214 278.932 265.279 269.955C266.459 264.778 270.648 260.112 272.694 252.612C274.248 246.942 275.368 247.257 280.187 236.311C282.153 231.902 283.844 229.756 283.943 222.945C283.943 217.04 285.084 217.787 282.389 212.668C279.695 207.55 281.268 206.429 280.757 203.357C279.577 196.408 275.997 199.42 273.854 192.982C273.615 191.769 273.049 190.642 272.217 189.726C271.386 188.81 270.319 188.139 269.134 187.786C259.144 181.408 266.911 178.75 265.437 169.458C265.31 168.677 264.995 167.939 264.518 167.308C264.042 166.677 263.418 166.171 262.703 165.835C254.561 160.737 255.879 165.048 254.837 168.119C254.541 168.985 251.906 172.863 250.903 175.206C248.641 181.112 244.098 186.073 240.028 190.64C237.215 193.81 235.17 199.597 230.568 203.022C229.368 203.928 226.222 204.499 223.941 208.928C223.174 210.386 220.853 209.362 221.542 207.491C224.334 199.735 228.326 203.554 234.207 192.865C237.668 186.585 239.221 186.801 245.023 179.085C245.746 178.154 246.128 177.004 246.106 175.825C246.085 174.647 245.661 173.512 244.905 172.608C244.694 172.22 244.371 171.905 243.978 171.705C243.585 171.504 243.14 171.428 242.702 171.485C241.364 171.743 240.147 172.435 239.242 173.454C230.293 181.053 228.523 181.447 226.537 186.624C223.468 194.499 217.844 197.136 213.695 207.688C211.728 212.826 213.065 215.385 213.065 220.622C213.065 224.559 212.731 230.465 212.632 233.792C212.475 240.289 215.346 243.635 217.136 254.954C217.648 258.242 218.257 265.762 218.532 267.357C219.909 275.664 222.013 280.153 221.64 291.492C221.443 297.299 221.03 305.272 220.695 309.21C220.362 313.147 211.197 373.425 210.862 375.788C210.41 378.702 210.449 381.083 207.579 380.473C206.005 380.138 206.555 377.934 207.244 375.709C207.539 374.685 208.089 375.138 196.86 372.225C194.893 371.752 192.927 371.575 193.379 369.685C193.379 369.685 196.624 340.491 196.624 340.451C196.525 335.667 198.118 331.14 198.453 326.434C198.647 323.885 199.143 321.367 199.928 318.934C200.696 316.552 199.594 316.671 215.956 320.431C217.628 306.119 218.139 311.473 218.139 285.744C207.441 284.523 205.788 282.948 200.793 281.983C194.716 280.842 197.725 278.42 203.685 229.618C205.651 214.381 205.159 212.709 209.585 213.869C210.155 208.534 210.882 202.767 219.909 191.821C223.193 187.884 224.511 182.667 226.635 180.009C228.051 178.237 229.9 177.391 231.119 175.954C219.319 174.537 207.677 175.128 208.798 171.347C209.943 166.661 210.562 161.861 210.646 157.036C211.158 150.047 211.079 163.513 214.422 124.574C214.678 121.562 214.717 119.16 214.717 119.12C214.441 116.522 215.956 115.538 216.959 115.832C221.168 117.054 226.792 115.518 245.829 116.05C249.035 116.05 245.829 115.203 254.62 115.892C261.523 116.444 261.424 116.581 261.601 117.604C262.191 121.069 259.518 145.165 256.527 160.402C260.618 160.107 263.529 162.371 266.538 164.34C267.069 164.684 267.509 165.153 267.821 165.705C268.133 166.256 268.307 166.876 268.327 167.509C268.812 169.979 268.905 172.51 268.603 175.009C267.581 179.281 266.105 181.939 269.075 183.455C274.11 186.053 274.208 185.994 276.115 189.361C277.492 191.762 276.824 193.023 278.888 194.302C283.667 197.333 284.395 201.92 284.041 207.314ZM259.025 121.05C259.025 119.081 257.354 119.436 254.817 119.219C246.242 118.412 250.53 119.337 246.164 119.219C239.754 118.866 233.33 118.932 226.93 119.416C216.723 118.943 217.254 118.963 218.158 119.534C217.175 120.282 216.939 139.653 215.228 150.166C213.065 163.611 212.397 169.3 212.397 170.698C217.942 172.096 232.063 172.391 232.948 172.863C235.977 174.537 237.982 167.961 242.782 167.883C245.574 167.883 244.748 167.39 248.878 172.155C252.811 165.245 252.261 167.686 255.092 151.031C256.93 141.114 258.244 131.106 259.025 121.05ZM218.061 282.377C211.571 251.824 216.094 258.42 211.767 244.973C208.541 235.13 210.685 233.497 210.115 217.413C210.115 216.428 209.211 216.843 208.719 216.606C208.227 216.37 200.597 278.833 200.597 278.874C206.378 279.838 211.925 281.905 218.061 282.377ZM208.089 371.752C209.565 357.716 211.295 355.157 215.405 323.581L201.816 320.076C200.872 327.951 197.076 360.649 196.722 369.291L208.089 371.752Z"
                       fill="#000001"
@@ -266,13 +225,7 @@
               <h2 class="companies__title">Trusted by 50,000+ companies</h2>
               <div class="companies__logos">
                 <div class="companies_logo--focusfox">
-                  <svg
-                    width="124"
-                    height="33"
-                    viewBox="0 0 124 33"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="124" height="33" viewBox="0 0 124 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_2_716)">
                       <path
                         fill-rule="evenodd"
@@ -333,13 +286,7 @@
                   </svg>
                 </div>
                 <div class="companies_logo--nowintech">
-                  <svg
-                    width="159"
-                    height="27"
-                    viewBox="0 0 159 27"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="159" height="27" viewBox="0 0 159 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_2_728)">
                       <path
                         opacity="0.4"
@@ -433,13 +380,7 @@
                   </svg>
                 </div>
                 <div class="companies_logo--optimer">
-                  <svg
-                    width="148"
-                    height="33"
-                    viewBox="0 0 148 33"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="148" height="33" viewBox="0 0 148 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M49.1941 26.3043C47.3079 26.3043 45.6553 25.8781 44.2361 25.0256C42.8349 24.1731 41.7302 22.9963 40.9218 21.4952C40.1314 19.9756 39.7362 18.2243 39.7362 16.2413C39.7362 14.2584 40.1314 12.5164 40.9218 11.0152C41.7302 9.49564 42.8349 8.30955 44.2361 7.45707C45.6553 6.60458 47.3079 6.17834 49.1941 6.17834C51.0623 6.17834 52.706 6.60458 54.1252 7.45707C55.5443 8.30955 56.6491 9.49564 57.4394 11.0152C58.2299 12.5164 58.6251 14.2584 58.6251 16.2413C58.6251 18.2243 58.2299 19.9756 57.4394 21.4952C56.6491 22.9963 55.5443 24.1731 54.1252 25.0256C52.706 25.8781 51.0623 26.3043 49.1941 26.3043ZM49.1941 23.1075C50.9904 23.1075 52.4186 22.4959 53.4784 21.2729C54.5563 20.0497 55.0952 18.3725 55.0952 16.2413C55.0952 14.1102 54.5563 12.4329 53.4784 11.2098C52.4186 9.98668 50.9904 9.37515 49.1941 9.37515C47.3978 9.37515 45.9606 9.98668 44.8828 11.2098C43.805 12.4329 43.2661 14.1102 43.2661 16.2413C43.2661 18.3725 43.805 20.0497 44.8828 21.2729C45.9606 22.4959 47.3978 23.1075 49.1941 23.1075Z"
                       fill="#969FA4"
@@ -515,13 +456,7 @@
                   </svg>
                 </div>
                 <div class="companies_logo--carded">
-                  <svg
-                    width="117"
-                    height="34"
-                    viewBox="0 0 117 34"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="117" height="34" viewBox="0 0 117 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M54.3207 22.4057C54.4999 22.4057 54.6548 22.4749 54.7851 22.6133L56.0807 24.018C55.3637 24.9056 54.4795 25.5856 53.4284 26.0578C52.3855 26.5301 51.1307 26.7663 49.6639 26.7663C48.3521 26.7663 47.1706 26.5424 46.1195 26.0945C45.0765 25.6466 44.1843 25.0237 43.4428 24.2257C42.7013 23.4277 42.1309 22.4749 41.7317 21.3674C41.3405 20.2599 41.145 19.0507 41.145 17.7396C41.145 16.4123 41.365 15.199 41.805 14.0996C42.245 12.9922 42.8643 12.0395 43.6628 11.2414C44.4613 10.4434 45.4147 9.8245 46.5228 9.38474C47.6391 8.93694 48.8695 8.71295 50.2139 8.71295C51.5258 8.71295 52.6707 8.92466 53.6484 9.34817C54.6344 9.76347 55.4777 10.3172 56.1784 11.0094L55.0785 12.5362C55.0133 12.6339 54.9277 12.7194 54.8218 12.7927C54.724 12.866 54.5855 12.9026 54.4063 12.9026C54.2188 12.9026 54.0273 12.8294 53.8318 12.6827C53.6362 12.5362 53.3877 12.3774 53.0862 12.2064C52.7847 12.0353 52.4017 11.8766 51.9373 11.73C51.481 11.5835 50.8984 11.5102 50.1895 11.5102C49.3584 11.5102 48.5924 11.6567 47.8917 11.9498C47.1991 12.2349 46.6002 12.6461 46.095 13.1835C45.598 13.721 45.2069 14.3765 44.9217 15.1501C44.6446 15.9156 44.5062 16.7787 44.5062 17.7396C44.5062 18.7331 44.6446 19.6167 44.9217 20.3902C45.2069 21.1638 45.5899 21.8153 46.0706 22.3445C46.5513 22.8739 47.1177 23.281 47.7695 23.5661C48.4213 23.843 49.1221 23.9814 49.8717 23.9814C50.3199 23.9814 50.7233 23.9569 51.0817 23.908C51.4484 23.8592 51.7825 23.7818 52.084 23.676C52.3936 23.5701 52.6829 23.4358 52.9518 23.2729C53.2288 23.1019 53.5018 22.8943 53.7706 22.65C53.8521 22.5767 53.9377 22.5197 54.0273 22.479C54.117 22.43 54.2148 22.4057 54.3207 22.4057Z"
                       fill="#969FA4"
@@ -565,13 +500,7 @@
             <div class="benefits__container">
               <div class="benefits__card benefits__card--fastcard">
                 <div class="benefits__icon">
-                  <svg
-                    width="55"
-                    height="55"
-                    viewBox="0 0 55 55"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"
@@ -582,19 +511,13 @@
                 </div>
                 <h3 class="benefits__title">Fast. Really fast.</h3>
                 <p class="benefits__desc">
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
                 </p>
               </div>
               <div class="benefits__card benefits__card--cashcard">
                 <div class="benefits__icon">
-                  <svg
-                    width="55"
-                    height="55"
-                    viewBox="0 0 55 55"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M38.1518 37.059C38.6066 37.254 39.1047 37.1458 39.4729 36.8209C39.7977 36.5394 41.3353 35.1316 41.92 34.7851C42.6563 34.352 43.2194 26.9672 43.2194 26.9889C43.2627 26.5557 43.1111 26.1225 42.8079 25.8193C39.841 22.8091 39.6894 22.4192 36.1594 21.9861C35.1848 21.8562 34.5352 21.8996 34.4053 22.1162C33.8638 22.9824 36.311 24.5632 38.2384 24.5632C38.9747 24.5632 41.2486 26.9671 41.0321 27.5085C40.8805 27.8767 40.9454 30.2372 40.9238 32.836L39.9492 33.3341C39.4078 33.6157 38.7365 34.1138 38.455 34.4819C37.9569 35.11 37.9136 35.1101 37.069 34.6119C36.2677 34.1355 34.8816 34.1572 34.8816 34.6553C34.8816 35.0884 36.5925 36.4527 37.7187 36.9074L38.1518 37.059Z"
                       fill="#000001"
@@ -615,19 +538,13 @@
                 </div>
                 <h3 class="benefits__title">More bang for buck.</h3>
                 <p class="benefits__desc">
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
                 </p>
               </div>
               <div class="benefits__card benefits__card--safecard">
                 <div class="benefits__icon">
-                  <svg
-                    width="55"
-                    height="55"
-                    viewBox="0 0 55 55"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"
@@ -638,8 +555,8 @@
                 </div>
                 <h3 class="benefits__title">Safe and secure.</h3>
                 <p class="benefits__desc">
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
                 </p>
               </div>
             </div>
@@ -659,13 +576,7 @@
                 <div class="relax-block__features">
                   <div class="relax-feature">
                     <div class="relax-feature__icon">
-                      <svg
-                        width="32"
-                        height="32"
-                        viewBox="0 0 32 32"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M27.6133 16.5536C26.585 10.213 22.1762 5.55493 18.2503 6.66104C17.4246 6.8947 16.7703 7.43998 14.1375 10.1663C12.7665 11.584 12.3459 11.9267 12.1122 11.8488C9.5573 10.8518 7.95264 12.0981 7.96818 15.0893C7.96818 16.6783 8.04614 17.0989 8.56023 18.7036C8.70045 19.1242 6.92439 20.7755 4.69662 23.1279C2.90505 24.7637 4.79008 25.2623 7.48527 24.3899C12.1278 22.8943 11.4111 22.9566 13.0157 23.8602C15.6486 25.3402 19.076 25.8854 20.6339 25.0754C20.9455 24.9195 21.1169 24.5924 21.0857 24.2341C21.0857 24.2185 20.9455 22.6918 20.9455 22.7073C23.0798 21.8505 25.6503 20.9781 26.8655 20.1056C28.0806 19.2177 27.9092 18.3608 27.6133 16.5536ZM7.46973 22.941C7.29833 22.941 9.33917 20.6976 9.47939 20.5419C9.51052 20.7288 9.94676 21.4299 10.5699 21.8505C10.5855 21.9284 7.75017 22.941 7.46973 22.941ZM23.2511 19.5292C22.3787 19.7318 19.6368 20.8223 18.671 21.3675C17.9699 21.757 17.9387 21.8038 18.0322 22.3023C18.3749 24.2029 18.4684 24.0939 16.8171 23.6732C13.0781 22.7074 8.74717 15.3696 10.4609 12.8926C10.9438 12.1916 11.6137 13.0795 11.6605 14.4973C11.7072 15.9928 13.0313 18.4543 13.9661 19.0619C14.5114 19.4202 14.7917 18.984 14.6515 18.7036C12.8444 15.3697 13.1404 14.4817 13.265 13.9832C13.265 13.9832 17.2377 9.96379 17.5649 9.60545C18.7644 8.32801 19.8238 8.26569 20.9922 9.38738C23.1421 11.4749 24.7935 14.7932 25.2141 17.8311C25.3076 18.6413 24.6533 19.2177 23.2511 19.5292Z"
                           fill="#006B99"
@@ -679,19 +590,12 @@
                     <div class="relax-feature__content">
                       <h3 class="relax-feature__title">Anti-loss technology</h3>
                       <p class="relax-feature__desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
                       </p>
                     </div>
                     <div class="relax-feature__arrow">
-                      <svg
-                        width="18"
-                        height="10"
-                        viewBox="0 0 18 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                      <svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M1.71429 1.66663L9.00001 8.74996L16.2857 1.66663"
                           stroke="#CECAC4"
@@ -705,13 +609,7 @@
 
                   <div class="relax-feature relax-feature--closed">
                     <div class="relax-feature__icon">
-                      <svg
-                        width="32"
-                        height="32"
-                        viewBox="0 0 32 32"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M18.3144 15.1445C18.6596 15.1445 18.8943 14.9788 19.129 14.5369C19.9713 12.9629 20.6616 12.8524 21.0345 14.2056C21.4073 15.5311 22.8158 15.6692 22.8158 14.3851C22.8158 12.9629 20.5789 11.8029 18.9771 12.3829C17.7896 12.8247 17.2374 15.1445 18.3144 15.1445Z"
                           fill="#006B99"
@@ -733,16 +631,8 @@
                     <div class="relax-feature__content">
                       <h3 class="relax-feature__title">Exchange easily</h3>
                     </div>
-                    <div
-                      class="relax-feature__arrow relax-feature__arrow--closed"
-                    >
-                      <svg
-                        width="18"
-                        height="10"
-                        viewBox="0 0 18 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                    <div class="relax-feature__arrow relax-feature__arrow--closed">
+                      <svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M1.71429 1.66663L9.00001 8.74996L16.2857 1.66663"
                           stroke="#CECAC4"
@@ -756,13 +646,7 @@
 
                   <div class="relax-feature relax-feature--closed">
                     <div class="relax-feature__icon">
-                      <svg
-                        width="32"
-                        height="32"
-                        viewBox="0 0 32 32"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                           fill-rule="evenodd"
                           clip-rule="evenodd"
@@ -774,16 +658,8 @@
                     <div class="relax-feature__content">
                       <h3 class="relax-feature__title">Fully encrypted</h3>
                     </div>
-                    <div
-                      class="relax-feature__arrow relax-feature__arrow--closed"
-                    >
-                      <svg
-                        width="18"
-                        height="10"
-                        viewBox="0 0 18 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                    <div class="relax-feature__arrow relax-feature__arrow--closed">
+                      <svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M1.71429 1.66663L9.00001 8.74996L16.2857 1.66663"
                           stroke="#CECAC4"
@@ -797,13 +673,7 @@
 
                   <div class="relax-feature relax-feature--closed">
                     <div class="relax-feature__icon">
-                      <svg
-                        width="32"
-                        height="32"
-                        viewBox="0 0 32 32"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                           fill-rule="evenodd"
                           clip-rule="evenodd"
@@ -815,16 +685,8 @@
                     <div class="relax-feature__content">
                       <h3 class="relax-feature__title">Plenty of options</h3>
                     </div>
-                    <div
-                      class="relax-feature__arrow relax-feature__arrow--closed"
-                    >
-                      <svg
-                        width="18"
-                        height="10"
-                        viewBox="0 0 18 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                    <div class="relax-feature__arrow relax-feature__arrow--closed">
+                      <svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M1.71429 1.66663L9.00001 8.74996L16.2857 1.66663"
                           stroke="#CECAC4"
@@ -837,11 +699,7 @@
                   </div>
                 </div>
 
-                <img
-                  class="relax-block__image"
-                  src="public/images/computer.svg"
-                  alt=""
-                />
+                <img class="relax-block__image" src="public/images/computer.svg" alt="" />
               </div>
             </div>
           </div>
@@ -865,13 +723,7 @@
               </div>
               <div class="about-block__column">
                 <div class="magnifier">
-                  <svg
-                    width="37"
-                    height="41"
-                    viewBox="0 0 37 41"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="37" height="41" viewBox="0 0 37 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"
@@ -890,13 +742,7 @@
               </div>
               <div class="about-block__column">
                 <div class="computerstatustic">
-                  <svg
-                    width="41"
-                    height="37"
-                    viewBox="0 0 41 37"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="41" height="37" viewBox="0 0 41 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"
@@ -922,28 +768,21 @@
               <div class="container">
                 <div class="blog-block">
                   <div class="blog-block__header">
-                    <h2 class="blog-block__title">
-                      Get smarter, with our blog.
-                    </h2>
+                    <h2 class="blog-block__title">Get smarter, with our blog.</h2>
                     <a href="#" class="blog-block__link">See All Posts</a>
                   </div>
 
                   <div class="blog-cards">
                     <div class="blog-card">
-                      <div
-                        class="blog-card__image blog-card__image--hand-phone"
-                      >
+                      <div class="blog-card__image blog-card__image--hand-phone">
                         <img src="public/images/hand-phone.svg" alt="" />
                       </div>
                       <div class="blog-card__text">
                         <span class="blog-card__theme">Improvements</span>
-                        <h3 class="blog-card__title">
-                          Automating Daily Tasks from Your Phone
-                        </h3>
+                        <h3 class="blog-card__title">Automating Daily Tasks from Your Phone</h3>
                         <p class="blog-card__desc">
-                          Dicta nihil ratione corrupti. Aut dolorem dolores
-                          omnis laboriosam ratione sequi. Provident ad sed
-                          velit. Est ea ab.
+                          Dicta nihil ratione corrupti. Aut dolorem dolores omnis laboriosam ratione sequi. Provident ad
+                          sed velit. Est ea ab.
                         </p>
                         <div class="blog-card__meta">
                           <span class="blog-card__date">April 24, 2022</span>
@@ -957,13 +796,10 @@
                       </div>
                       <div class="blog-card__text">
                         <span class="blog-card__theme">Tips & Tricks</span>
-                        <h3 class="blog-card__title">
-                          Can You Automate Group Learning?
-                        </h3>
+                        <h3 class="blog-card__title">Can You Automate Group Learning?</h3>
                         <p class="blog-card__desc">
-                          Dicta nihil ratione corrupti. Aut dolorem dolores
-                          omnis laboriosam ratione sequi. Provident ad sed
-                          velit. Est ea ab.
+                          Dicta nihil ratione corrupti. Aut dolorem dolores omnis laboriosam ratione sequi. Provident ad
+                          sed velit. Est ea ab.
                         </p>
                         <div class="blog-card__meta">
                           <span class="blog-card__date">April 24, 2022</span>
@@ -977,13 +813,10 @@
                       </div>
                       <div class="blog-card__text">
                         <span class="blog-card__theme">News</span>
-                        <h3 class="blog-card__title">
-                          Our $5,000,000 B Round Investors
-                        </h3>
+                        <h3 class="blog-card__title">Our $5,000,000 B Round Investors</h3>
                         <p class="blog-card__desc">
-                          Eos ipsum et est quis neque cum. Quis autem est
-                          eligendi amet animi eaque. Itaque minus illo detectus
-                          vel vitae dolores minus.
+                          Eos ipsum et est quis neque cum. Quis autem est eligendi amet animi eaque. Itaque minus illo
+                          detectus vel vitae dolores minus.
                         </p>
                         <div class="blog-card__meta">
                           <span class="blog-card__date">April 24, 2022</span>
@@ -996,6 +829,34 @@
             </div>
           </div>
         </div>
+        <div class="container">
+          <div class="get-started-block">
+            <h1 class="get-started-block__title">Get started with Whirl</h1>
+            <p class="get-started-block__desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br />
+              sed do eiusmod tempor incididunt.
+            </p>
+            <button class="banner__action banner__action--book btn__book">Book a demo</button>
+            <div class="get-started-block__benefits">
+              <div class="get-started-block__benefit">
+                <div class="get-started-block__benefit-mark">
+                  <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 1L5.3333 8L1 4.50003" stroke="#6D757C" stroke-width="1.6" />
+                  </svg>
+                </div>
+                <span class="get-started-block__benefit-mark">Free 30-day trial</span>
+              </div>
+              <div class="get-started-block__benefit">
+                <div class="get-started-block__benefit-mark">
+                  <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 1L5.3333 8L1 4.50003" stroke="#6D757C" stroke-width="1.6" />
+                  </svg>
+                </div>
+                <span class="get-started-block__benefit-mark">No credit-card required</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <footer class="page__footer">
         <div class="container">
@@ -1003,13 +864,7 @@
             <div class="footer__main">
               <div class="footer__brand">
                 <div class="footer__logo">
-                  <svg
-                    width="106"
-                    height="37"
-                    viewBox="0 0 106 37"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="106" height="37" viewBox="0 0 106 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M43.1528 29.5814L37.5584 9.62834H41.4203L44.9918 24.2911H45.1757L48.9893 9.62834H52.5027L56.3259 24.3009H56.5001L60.0717 9.62834H63.9336L58.3391 29.5814H54.7966L50.8283 15.5811H50.6734L46.6953 29.5814H43.1528ZM69.4999 20.813V29.5814H65.9961V9.62834H69.4225V17.1595H69.5967C69.9451 16.3151 70.4839 15.6494 71.2131 15.1623C71.9487 14.6686 72.8843 14.4217 74.02 14.4217C75.0524 14.4217 75.9526 14.6393 76.7204 15.0746C77.4883 15.5097 78.082 16.1462 78.5014 16.9841C78.9273 17.822 79.1402 18.845 79.1402 20.0531V29.5814H75.6364V20.5987C75.6364 19.5919 75.3783 18.8092 74.8621 18.2506C74.3523 17.6856 73.6361 17.4031 72.7133 17.4031C72.0938 17.4031 71.539 17.5395 71.0486 17.8122C70.5646 18.0785 70.1839 18.465 69.9064 18.9716C69.6354 19.4783 69.4999 20.092 69.4999 20.813ZM82.4392 29.5814V14.6166H85.9429V29.5814H82.4392ZM84.2008 12.4927C83.6458 12.4927 83.1684 12.3076 82.7683 11.9374C82.3682 11.5607 82.1682 11.1093 82.1682 10.5831C82.1682 10.0506 82.3682 9.59917 82.7683 9.22892C83.1684 8.8522 83.6458 8.66385 84.2008 8.66385C84.7621 8.66385 85.2396 8.8522 85.6335 9.22892C86.0335 9.59917 86.2336 10.0506 86.2336 10.5831C86.2336 11.1093 86.0335 11.5607 85.6335 11.9374C85.2396 12.3076 84.7621 12.4927 84.2008 12.4927ZM89.2734 29.5814V14.6166H92.6705V17.1108H92.8252C93.0971 16.2469 93.5612 15.5811 94.2195 15.1135C94.8837 14.6393 95.6419 14.4023 96.4942 14.4023C96.6874 14.4023 96.9037 14.412 97.1422 14.4315C97.3875 14.4445 97.591 14.4673 97.7525 14.4997V17.7441C97.6038 17.6921 97.3687 17.6466 97.0456 17.6076C96.7293 17.5622 96.4232 17.5395 96.1258 17.5395C95.4872 17.5395 94.9127 17.6791 94.4033 17.9583C93.8998 18.2312 93.5031 18.6112 93.2125 19.0983C92.9227 19.5854 92.7774 20.1473 92.7774 20.7838V29.5814H89.2734ZM103.312 9.62834V29.5814H99.8075V9.62834H103.312Z"
                       fill="#2D2D2D"
@@ -1063,25 +918,11 @@
                     and Whirl updates.
                   </p>
                   <form class="footer__form">
-                    <input
-                      type="email"
-                      placeholder="Your email"
-                      class="footer__input"
-                    />
+                    <input type="email" placeholder="Your email" class="footer__input" />
                     <button type="submit" class="footer__button">
                       <div class="footer__button__indicator">
-                        <svg
-                          width="8"
-                          height="16"
-                          viewBox="0 0 8 16"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M1 1L6.82353 7.83721L1 14.6744"
-                            stroke="#006B99"
-                            stroke-width="1.6"
-                          />
+                        <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 1L6.82353 7.83721L1 14.6744" stroke="#006B99" stroke-width="1.6" />
                         </svg>
                       </div>
                     </button>
@@ -1099,13 +940,7 @@
             </div>
             <div class="social__network__logo">
               <div class="social__network__logo__twitter">
-                <svg
-                  width="22"
-                  height="22"
-                  viewBox="0 0 22 22"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M21.3599 2.48753C20.5602 2.91641 19.7119 3.19783 18.8432 3.32226C19.7581 2.65959 20.4428 1.61676 20.7697 0.388178C19.9097 1.00621 18.9685 1.44141 17.9872 1.67492C17.5772 1.14552 17.0817 0.723695 16.5315 0.435588C15.9813 0.147469 15.388 -0.000786546 14.7885 3.13815e-06C12.3686 3.13815e-06 10.4064 2.37471 10.4064 5.30478C10.4064 5.72014 10.4452 6.12546 10.5201 6.514C6.87796 6.29272 3.64908 4.18061 1.48765 0.970772C1.09794 1.78038 0.893154 2.70091 0.894311 3.6379C0.893742 4.51132 1.07139 5.37139 1.41149 6.14162C1.75159 6.91196 2.24361 7.56855 2.84382 8.05324C2.14803 8.0265 1.46759 7.79897 0.859083 7.38977C0.858528 7.41189 0.858528 7.43365 0.858528 7.45658C0.858528 10.0259 2.36892 12.17 4.37333 12.658C3.72794 12.8694 3.05122 12.9004 2.39444 12.7486C2.952 14.8556 4.5703 16.3899 6.48789 16.4329C4.9356 17.9075 3.01871 18.7074 1.04549 18.7038C0.691816 18.7038 0.343135 18.679 0 18.6296C2.0037 20.188 4.3357 21.0153 6.71731 21.0124C14.7778 21.0124 19.1855 12.9295 19.1855 5.92029C19.1855 5.69068 19.1811 5.46124 19.1728 5.23327C20.0311 4.48309 20.7719 3.55322 21.3599 2.48753Z"
                     fill="black"
@@ -1113,13 +948,7 @@
                 </svg>
               </div>
               <div class="social__network__logo__linkdin">
-                <svg
-                  width="22"
-                  height="22"
-                  viewBox="0 0 22 22"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M20.3715 0H1.62422C0.72617 0 0 0.708987 0 1.58555V20.4101C0 21.2867 0.72617 22 1.62422 22H20.3715C21.2695 22 22 21.2867 22 20.4144V1.58555C22 0.708987 21.2695 0 20.3715 0ZM6.52694 18.7473H3.26133V8.24569H6.52694V18.7473ZM4.89413 6.81487C3.8457 6.81487 2.99922 5.96837 2.99922 4.9242C2.99922 3.88008 3.8457 3.03359 4.89413 3.03359C5.9383 3.03359 6.78475 3.88008 6.78475 4.9242C6.78475 5.96406 5.9383 6.81487 4.89413 6.81487ZM18.7473 18.7473H15.4859V13.6426C15.4859 12.4266 15.4644 10.8582 13.7887 10.8582C12.0914 10.8582 11.8336 12.1859 11.8336 13.5566V18.7473H8.57656V8.24569H11.7047V9.68087H11.7476C12.1816 8.85587 13.2473 7.98362 14.8328 7.98362C18.1371 7.98362 18.7473 10.1578 18.7473 12.9852V18.7473Z"
                     fill="black"
@@ -1127,13 +956,7 @@
                 </svg>
               </div>
               <div class="social__network__logo__facebook">
-                <svg
-                  width="22"
-                  height="22"
-                  viewBox="0 0 22 22"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M22 11C22 4.92488 17.0751 0 11 0C4.92488 0 0 4.92488 0 11C0 16.4903 4.02252 21.0412 9.28125 21.8664V14.1797H6.48826V11H9.28125V8.57656C9.28125 5.81969 10.9235 4.29688 13.4361 4.29688C14.6393 4.29688 15.8984 4.51172 15.8984 4.51172V7.21875H14.5114C13.145 7.21875 12.7188 8.06676 12.7188 8.9375V11H15.7695L15.2818 14.1797H12.7188V21.8664C17.9775 21.0412 22 16.4903 22 11Z"
                     fill="black"
