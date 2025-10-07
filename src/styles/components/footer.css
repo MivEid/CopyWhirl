@@ -83,6 +83,7 @@
   padding: 7px 12px;
   font-size: 13px;
   border: none;
+  outline: none;
   cursor: pointer;
   color: var(--color-feather);
 }
