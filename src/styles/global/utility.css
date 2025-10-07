@@ -11,3 +11,8 @@ body {
 button {
   border: transparent;
 }
+
+h1,
+h2 {
+  font-family: var(--second-family);
+}
