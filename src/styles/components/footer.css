@@ -4,6 +4,7 @@
 .footer__container {
   display: flex;
   flex-direction: column;
+  padding-top: 48px;
   padding-bottom: 40px;
 }
 
@@ -57,7 +58,7 @@
 
 .footer__list {
   font-size: 14px;
-  color: var(--color-feather);
+  color: var(--color-featherfalls);
 }
 
 .footer__list li {
@@ -85,14 +86,14 @@
   border: none;
   outline: none;
   cursor: pointer;
-  color: var(--color-feather);
+  color: var(--color-featherfalls);
 }
 
 .footer__form {
   gap: 10px;
   margin-top: 20px;
   display: flex;
-  border-bottom: 1px solid var(--color-illusion);
+  border-bottom: 1px solid var(--color-illusionblue);
   width: fit-content;
   width: 216px;
 }
