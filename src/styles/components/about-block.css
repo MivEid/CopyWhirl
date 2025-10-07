@@ -1,10 +1,7 @@
-.container {
-  margin-top: 130px;
-  margin-bottom: 130px;
-}
-
 .about-block {
   display: flex;
+  margin-top: 130px;
+  margin-bottom: 130px;
 }
 
 .about-block__maintitle {
