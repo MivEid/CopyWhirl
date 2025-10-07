@@ -5,14 +5,14 @@
 }
 
 .get-started-block__container {
-  padding: 64px 64px;
+  padding: 64px;
 }
 
 .get-started-block__title {
   font-family: var(--second-family);
   font-size: 42px;
   line-height: 120%;
-  letter-spacing: 0em;
+  letter-spacing: 0;
 }
 
 .get-started-block__desc {
