@@ -1,0 +1,55 @@
+.investment-block-column {
+  margin-left: auto;
+  color: var(--color-white);
+}
+
+.bcolor-container--blue {
+  background-color: var(--color-purr);
+}
+
+.investment-block {
+  display: flex;
+  padding: 80px 0;
+  align-items: center;
+  gap: 187px;
+}
+
+.investment-title {
+  font-size: 42px;
+  font-family: var(--second-family);
+  line-height: 120%;
+  padding-bottom: 18px;
+}
+
+.investment__image {
+  flex-shrink: 0;
+  padding-left: 60px;
+}
+
+.investment-description {
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
+.investment-features {
+  padding-bottom: 15px;
+}
+
+.feature-item {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 11px;
+}
+
+.demo-button {
+  padding: 9px 35px;
+  cursor: pointer;
+  border: 1px solid var(--color-purr);
+}
+
+.demo-button:hover {
+  border: 1px solid var(--color-white);
+}
