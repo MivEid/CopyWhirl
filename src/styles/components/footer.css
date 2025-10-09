@@ -138,4 +138,5 @@
 .social__network__logo__linkdin:hover,
 .social__network__logo__facebook:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }

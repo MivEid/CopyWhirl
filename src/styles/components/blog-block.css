@@ -25,6 +25,7 @@
 
 .blog-block__link:hover {
   color: var(--color-umbra);
+  cursor: pointer;
 }
 
 .blog-cards {

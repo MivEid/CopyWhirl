@@ -22,6 +22,10 @@
   padding-bottom: 33px;
 }
 
+.get-started-block__btn:hover {
+  background-color: var(--color-clearskies);
+}
+
 .get-started-block__benefits {
   display: flex;
   gap: 38px;

@@ -60,6 +60,11 @@
   padding-top: 10px;
 }
 
+.relax-feature__arrow svg:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
 .relax-feature__arrow--closed {
   margin-top: auto;
   margin-bottom: auto;
