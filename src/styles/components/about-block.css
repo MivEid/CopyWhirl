@@ -13,13 +13,13 @@
   padding-right: 74px;
 }
 
-.null {
+.about-block__null {
   width: 55px;
   height: 55px;
 }
 
-.magnifier,
-.computerstatustic {
+.about-block__magnifier,
+.about-block__computerstatustic {
   margin-left: 10px;
 }
 
@@ -40,9 +40,6 @@
 .about-block__column {
   line-height: 160%;
   font-size: 15px;
-}
-
-.about-block__description {
 }
 
 @media (--sm-viewport) {
