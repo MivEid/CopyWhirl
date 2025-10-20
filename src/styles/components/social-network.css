@@ -1,0 +1,23 @@
+.social-network__logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+}
+
+.social-network__twitter,
+.social-network__linkdin,
+.social-network__facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.social-network__twitter:hover,
+.social-network__linkdin:hover,
+.social-network__linkdin:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
