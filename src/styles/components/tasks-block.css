@@ -7,7 +7,7 @@
   margin-bottom: 65px;
 }
 
-.tasks-block__title {
+.tasks-block__maintitle {
   font-size: 42px;
   font-family: var(--second-family);
   line-height: 120%;
@@ -15,7 +15,7 @@
   margin-bottom: 20px;
 }
 
-.tasks-block__desc {
+.tasks-block__maindesc {
   font-size: 18px;
   line-height: 150%;
 }
@@ -26,19 +26,19 @@
   gap: 64px;
 }
 
-.column-icon {
+.tasks-block__icon {
   display: flex;
   margin-bottom: 8px;
 }
 
-.column-title {
+.tasks-block__title {
   font-size: 25px;
   font-family: var(--second-family);
   margin-bottom: 12px;
   line-height: 125%;
 }
 
-.column-description {
+.tasks-block__desc {
   font-size: 15px;
   line-height: 160%;
 }
