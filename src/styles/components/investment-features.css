@@ -1,0 +1,11 @@
+.investment-features {
+  padding-bottom: 15px;
+}
+
+.investment-features__item {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 11px;
+}
