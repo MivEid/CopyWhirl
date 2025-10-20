@@ -1,0 +1,41 @@
+.relax-feature {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid var(--color-illusionblue);
+  border-bottom: 1px solid var(--color-illusionblue);
+  padding: 18px 16px 20px 12px;
+}
+.relax-feature--closed {
+  padding-bottom: 18px;
+  color: var(--color-featherfalls);
+}
+
+.relax-feature__icon {
+  padding-right: 16px;
+}
+
+.relax-feature__title {
+  font-family: var(--second-family);
+  font-size: 21px;
+  line-height: 126%;
+}
+
+.relax-feature__desc {
+  padding-top: 16px;
+}
+
+.relax-feature__arrow {
+  margin-left: auto;
+  padding-top: 10px;
+}
+
+.relax-feature__arrow svg:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.relax-feature__arrow--closed {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 0;
+}
