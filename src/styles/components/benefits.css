@@ -27,14 +27,14 @@
   line-height: 160%;
 }
 
-.benefits__card--fastcard {
+.benefits__card-fastcard {
   background-color: var(--color-hazenut);
 }
 
-.benefits__card--cashcard {
+.benefits__card-cashcard {
   background-color: var(--color-frostyday);
 }
 
-.benefits__card--safecard {
+.benefits__card-safecard {
   background-color: var(--color-icypink);
 }
