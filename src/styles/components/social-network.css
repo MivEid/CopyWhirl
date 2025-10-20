@@ -17,7 +17,7 @@
 
 .social-network__twitter:hover,
 .social-network__linkdin:hover,
-.social-network__linkdin:hover {
+.social-network__facebook:hover {
   transform: scale(1.1);
   cursor: pointer;
 }

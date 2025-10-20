@@ -108,6 +108,7 @@
 
 .footer__copyright-link {
   color: var(--color-purr);
+  cursor: pointer;
 }
 
 .footer__copyright-link:hover {
