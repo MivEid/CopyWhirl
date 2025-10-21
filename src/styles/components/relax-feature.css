@@ -5,6 +5,7 @@
   border-bottom: 1px solid var(--color-illusionblue);
   padding: 18px 16px 20px 12px;
 }
+
 .relax-feature--closed {
   padding-bottom: 18px;
   color: var(--color-featherfalls);
@@ -17,6 +18,11 @@
 .relax-feature__title {
   font-family: var(--second-family);
   font-size: 21px;
+  line-height: 120%;
+}
+
+.relax-feature__title--closed {
+  font-size: 20px;
   line-height: 126%;
 }
 

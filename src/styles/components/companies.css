@@ -1,4 +1,4 @@
-.companies__container {
+.companies {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,10 +9,13 @@
   font-size: 24px;
   line-height: 156%;
   padding-bottom: 24px;
+  text-align: center;
 }
 
 .companies__logos {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 63px;
 }

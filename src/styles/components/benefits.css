@@ -1,5 +1,6 @@
-.benefits__container {
-  display: flex;
+.benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding-top: 160px;
   padding-bottom: 120px;
   gap: 32px;

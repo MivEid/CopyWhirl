@@ -18,17 +18,42 @@
 
 .relax-block__content {
   display: flex;
+  flex-direction: column;
 }
 
 .relax-block__features {
   display: flex;
   flex-direction: column;
-  padding-right: 168px;
+  width: 450px;
   padding-top: 60px;
   gap: 1px;
 }
 
 .relax-block__image {
-  padding-top: 107px;
-  padding-right: 72px;
+  width: 458px; /* ← Добавьте это */
+  height: 258px;
+  margin-top: 50px;
+}
+
+@media (--lg-viewport) {
+  .relax-block__content {
+    flex-direction: row;
+  }
+
+  .relax-block__image {
+    margin-top: 107px;
+    margin-left: auto;
+  }
+}
+
+@media (--xl-viewport) {
+  .relax-block__content {
+    flex-direction: row;
+  }
+
+  .relax-block__image {
+    margin-top: 107px;
+    margin-right: 54px;
+    margin-left: auto;
+  }
 }
