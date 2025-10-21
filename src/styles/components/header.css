@@ -5,15 +5,22 @@
 
 .header__container {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
   padding: 20px 0;
+}
+
+.header__logo-menu {
+  display: flex;
+  align-items: center;
 }
 
 .header__menu {
   display: flex;
   flex-direction: row;
   gap: 27px;
-  padding: 0 40px;
+  padding: 0 20px;
 }
 
 .header__link {
@@ -28,7 +35,6 @@
 
 .header__actions {
   display: flex;
-  margin-left: auto;
   gap: 32px;
 }
 
@@ -40,4 +46,19 @@
 
 .header__action--sign:hover {
   color: var(--color-black);
+}
+
+@media (--lg-viewport) {
+  .header__container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header__actions {
+    margin-left: auto;
+  }
+
+  .header__menu {
+    padding: 0 40px;
+  }
 }

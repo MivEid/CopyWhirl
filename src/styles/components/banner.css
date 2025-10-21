@@ -1,14 +1,9 @@
-.banner__container {
+.banner {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   padding-top: 63px;
   padding-bottom: 92px;
-}
-
-.banner__image {
-  margin-left: auto;
-  padding-left: 152px;
+  gap: 50px;
 }
 
 .banner__title {
@@ -50,4 +45,18 @@
 
 .banner__action--learn:hover {
   color: var(--color-black);
+}
+
+@media (--lg-viewport) {
+  .banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+  }
+
+  .banner__image {
+    margin-left: auto;
+    padding-left: 152px;
+  }
 }
