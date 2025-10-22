@@ -10,11 +10,8 @@
   --color-text-secondary: var(--color-supersilver);\\серый
   --color-text-third: var(--color-disembark); \\голубой и ссылки в конце
   --color-text-fourth: var(--color-bluejavabanana); \\текст перед футером голубой
-  --color-text-five: var(--color-white); \\текст для картинки с лампочкой
   --color-back-link: var(--color-ufo); \\ссылки в конце
-  \\линия
-  --color-border: var(--color-violet); \\большая
-  --color-border-secondary: var(--color-illusionblue); \\короткие линии
+
 \\маленькие куски цвета
   --color-surface: var(--color-gooseberry); \\розовый
   --color-surface-secondary: var(--color-crymeariver); \\синий

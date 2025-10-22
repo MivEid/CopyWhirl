@@ -1,3 +1,20 @@
 :root {
   color-scheme: light;
+
+  \\основные цвета и большие вставки по порядку контента
+  --color-primary: var(--color-white);
+  --color-secondary: var(--color-lightgray);
+  --color-third: var(--color-purr);
+  --color-fourth: var(--color-clearskies);
+\\весь текст
+  --color-text: var(--color-umbra); \\основной цвет, где в светлой теме черный
+  --color-text-secondary: var(--color-umbra);\\серый
+  --color-text-third: var(--color-purr); \\голубой и ссылки в конце
+  --color-text-fourth: var(--color-steelblue); \\текст перед футером голубой
+  --color-back-link: var(--color-featherfalls); \\ссылки в конце
+\\маленькие куски цвета
+  --color-surface: var(--color-icypink); \\розовый
+  --color-surface-secondary: var(--color-frostyday); \\синий
+  --color-surface-third: var(--color-hazenut); \\;желтый
+  --color-surface-fourth: var(--color-clearskies); \\голубой
 }
