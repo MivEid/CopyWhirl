@@ -1,5 +1,5 @@
 .get-started-block {
-  background-color: var(--color-clearskies);
+  background-color: var(--color-fourth);
   margin-top: 80px;
   margin-bottom: 80px;
 }
@@ -23,7 +23,7 @@
 }
 
 .get-started-block__btn:hover {
-  background-color: var(--color-clearskies);
+  background-color: var(--color-fourth);
 }
 
 .get-started-block__benefits {
@@ -42,5 +42,5 @@
   font-size: 13px;
   line-height: 162%;
   letter-spacing: 0.02em;
-  color: var(--color-featherfalls);
+  color: var(--color-back-link);
 }

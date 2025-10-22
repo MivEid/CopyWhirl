@@ -17,13 +17,13 @@
 .blog-block__link {
   font-size: 17px;
   line-height: 159%;
-  color: var(--color-purr);
+  color: var(--color-text-third);
   margin-left: auto;
   padding-top: 16px;
   padding-right: 34px;
 }
 
 .blog-block__link:hover {
-  color: var(--color-umbra);
+  color: var(--color-text);
   cursor: pointer;
 }

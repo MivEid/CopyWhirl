@@ -29,7 +29,7 @@
 }
 
 .header__link:hover {
-  color: var(--color-purr);
+  color: var(--color-text-third);
   cursor: pointer;
 }
 
@@ -40,12 +40,12 @@
 
 .header__action--sign {
   font-size: 15px;
-  color: var(--color-purr);
+  color: var(--color-text-third);
   line-height: 160%;
 }
 
 .header__action--sign:hover {
-  color: var(--color-black);
+  color: var(--color-text);
 }
 
 @media (--lg-viewport) {

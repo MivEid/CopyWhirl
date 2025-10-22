@@ -5,7 +5,7 @@
 }
 
 .blog-card {
-  background-color: var(--color-white);
+  background-color: var(--color-primary);
 }
 
 .blog-card__image {
@@ -16,15 +16,15 @@
 }
 
 .blog-card__image--hand-phone {
-  background-color: var(--color-icypink);
+  background-color: var(--color-surface);
 }
 
 .blog-card__image--laptop {
-  background-color: var(--color-frostyday);
+  background-color: var(--color-surface-secondary);
 }
 
 .blog-card__image--handshake {
-  background-color: var(--color-hazenut);
+  background-color: var(--color-surface-third);
 }
 
 .blog-card__text {
@@ -33,8 +33,8 @@
 
 .blog-card__theme {
   display: inline-block;
-  background: var(--color-clearskies);
-  color: var(--color-steelblue);
+  background: var(--color-surface-fourth);
+  color: var(--color-text-fourth);
   font-size: 12px;
   line-height: 133%;
   letter-spacing: 0.03em;

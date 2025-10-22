@@ -3,7 +3,7 @@
 }
 
 .bcolor-container--blue {
-  background-color: var(--color-purr);
+  background-color: var(--color-third);
 }
 
 .investment-block {
@@ -34,7 +34,7 @@
 .investment-block__button {
   padding: 9px 35px;
   cursor: pointer;
-  border: 1px solid var(--color-purr);
+  border: 1px solid var(--color-third);
 }
 
 .investment-block__button:hover {
