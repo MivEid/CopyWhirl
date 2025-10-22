@@ -1,6 +1,17 @@
 :root {
   color-scheme: dark;
 
-  --color-primary: var(--color-black);
-  --color-secondary: var(--color-white);
+  --color-white: #5b5b5b;
+  --color-black: #ffffff;
+  --color-umbra: #ffffff;
+  --color-purr: #689eb9;
+  --color-hazenut: #d0c54e;
+  --color-frostyday: #cceff6;
+  --color-icypink: #a14362;
+  --color-lightgray: #3b3b3b;
+  --color-illusionblue: #c2cdd8;
+  --color-featherfalls: #626a72;
+  --color-violet: #dee5eb;
+  --color-clearskies: #e6f7ff;
+  --color-steelblue: #2c90c9;
 }
