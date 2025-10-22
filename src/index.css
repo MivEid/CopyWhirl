@@ -1,5 +1,5 @@
 @import './styles/global/media.css';
-@import './styles/colors/light.css';
+@import './styles/colors/color.css';
 @import './styles/fonts/fonts.css';
 @import './styles/normalize.css';
 @import './styles/global/utility.css';
@@ -22,3 +22,4 @@
 @import './styles/components/blog-cards.css';
 @import './styles/components/social-network.css';
 @import './styles/colors/dark.css';
+@import './styles/colors/light.css';
