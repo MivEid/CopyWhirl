@@ -1,6 +1,5 @@
 body {
-  background-color: var(--color-white);
-  color: var(--color-umbra);
+  background-color: var(--color-primary);
   font-family: var(--font-family);
   font-weight: 400;
   letter-spacing: 0.01em;

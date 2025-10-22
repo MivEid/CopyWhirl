@@ -40,11 +40,11 @@
   font-size: 17px;
   line-height: 160%;
   gap: 8px;
-  color: var(--color-purr);
+  color: var(--color-text-third);
 }
 
 .banner__action--learn:hover {
-  color: var(--color-black);
+  color: var(--color-text);
 }
 
 @media (--lg-viewport) {
