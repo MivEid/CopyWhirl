@@ -6,6 +6,10 @@
   gap: 50px;
 }
 
+.banner__text {
+  max-width: 525px;
+}
+
 .banner__title {
   font-family: var(--second-family);
   letter-spacing: 0;
@@ -57,6 +61,6 @@
 
   .banner__image {
     margin-left: auto;
-    padding-left: 152px;
+    min-width: 453px;
   }
 }

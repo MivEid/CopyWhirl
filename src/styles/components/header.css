@@ -11,6 +11,10 @@
   padding: 20px 0;
 }
 
+.header__logo {
+  min-width: 106px;
+}
+
 .header__logo-menu {
   display: flex;
   align-items: center;

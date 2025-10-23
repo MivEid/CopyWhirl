@@ -5,6 +5,10 @@
   padding-top: 20px;
 }
 
+.social-network__logo svg {
+  fill: var(--color-text);
+}
+
 .social-network__twitter,
 .social-network__linkdin,
 .social-network__facebook {

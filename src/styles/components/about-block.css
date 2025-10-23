@@ -18,9 +18,12 @@
   height: 55px;
 }
 
-.about-block__magnifier,
-.about-block__computerstatustic {
+.about-block__icon {
   margin-left: 10px;
+}
+
+.about-block__icon svg {
+  fill: var(--color-third);
 }
 
 .about-block__title {
