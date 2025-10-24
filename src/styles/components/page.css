@@ -11,10 +11,12 @@
 .page__content {
   flex-grow: 1;
 }
+
 .page__get-started-block {
   margin-top: 80px;
   margin-bottom: 80px;
 }
+
 .page__about-block {
   margin-top: 130px;
   margin-bottom: 130px;
