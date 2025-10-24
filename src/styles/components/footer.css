@@ -45,12 +45,6 @@
   flex-direction: column;
 }
 
-.footer__logo img {
-  width: 135px;
-  height: 47px;
-  margin-bottom: 17px;
-}
-
 .footer__column-title {
   margin-bottom: 16px;
   font-size: 15px;
@@ -61,10 +55,6 @@
 .footer__list {
   font-size: 14px;
   color: var(--color-back-link);
-}
-
-.footer__list li {
-  margin-bottom: 10px;
 }
 
 .footer__link {

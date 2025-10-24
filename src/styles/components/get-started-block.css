@@ -40,10 +40,6 @@
   padding-top: 20px;
 }
 
-.get-started-block__benefit-mark svg {
-  stroke: var(--color-back-link);
-}
-
 .get-started-block__benefit-text {
   font-size: 13px;
   line-height: 162%;
