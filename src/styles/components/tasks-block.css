@@ -31,10 +31,6 @@
   margin-bottom: 8px;
 }
 
-.tasks-block__icon svg {
-  fill: var(--color-third);
-}
-
 .tasks-block__title {
   font-size: 25px;
   font-family: var(--second-family);

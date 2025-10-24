@@ -11,10 +11,6 @@
   padding-bottom: 40px;
 }
 
-.benefits__icon svg {
-  fill: var(--color-text);
-}
-
 .benefits__title {
   font-family: var(--second-family);
   font-size: 25px;

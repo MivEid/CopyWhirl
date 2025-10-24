@@ -15,10 +15,6 @@
   padding-right: 16px;
 }
 
-.relax-feature__icon svg {
-  fill: var(--color-third);
-}
-
 .relax-feature__title {
   font-family: var(--second-family);
   font-size: 21px;

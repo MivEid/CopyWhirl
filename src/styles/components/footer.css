@@ -101,10 +101,6 @@
   width: 216px;
 }
 
-.footer__indicator svg {
-  stroke: var(--color-third);
-}
-
 .footer__separator {
   margin-bottom: 20px;
   border-top: 1 px solid var(--color-violet);

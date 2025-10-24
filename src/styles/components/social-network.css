@@ -1,12 +1,8 @@
-.social-network__logo {
+.social-network {
   display: flex;
   align-items: center;
   gap: 20px;
   padding-top: 20px;
-}
-
-.social-network__logo svg {
-  fill: var(--color-text);
 }
 
 .social-network__twitter,
@@ -26,7 +22,7 @@
 }
 
 @media (--sm-viewport) {
-  .social-network__logo {
+  .social-network {
     justify-content: flex-end;
     margin-left: auto;
     padding-top: 0;
