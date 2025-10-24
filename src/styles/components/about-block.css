@@ -10,7 +10,7 @@
   font-size: 42px;
   font-family: var(--second-family);
   line-height: 120%;
-  padding-right: 74px;
+  text-align: center;
 }
 
 .about-block__null {
@@ -37,6 +37,7 @@
 .about-block__columns {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 48px;
 }
 
@@ -54,6 +55,11 @@
   .about-block__columns {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .about-block__maintitle {
+    padding-right: 74px;
+    text-align: left;
   }
 }
 
