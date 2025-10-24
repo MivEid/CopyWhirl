@@ -4,8 +4,15 @@
 }
 
 .about-block__icon svg,
-.footer__indicator svg,
 .relax-feature__icon svg,
 .tasks-block__icon svg {
   fill: var(--color-third);
+}
+
+.footer__indicator svg {
+  stroke: var(--color-third);
+}
+
+.get-started-block__benefit-mark svg {
+  stroke: var(--color-text);
 }
